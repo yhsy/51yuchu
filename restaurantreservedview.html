@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>预厨--预约信息</title>
+    <link rel="stylesheet" href="css/libs/m-reset.css">
+     <link rel="stylesheet" href="scss/global.css">
+    <link rel="stylesheet" href="scss/restaurant.css">
+</head>
+
+<body>
+    <div class="g-hd g-hd-restaurant">
+        <a href="restaurantreserved.html" class="icon-back"></a>
+        <p class="hd-tit">预约信息</p>
+    </div>
+
+    <div class="g-bd-restaurant g-reserved-view">
+		<div class="m-reserved-view1">
+			<h2 class="f-cb">
+				<span>餐厅:</span>
+				<em class="reserved-name">顶龙意境粤菜(万象城店)</em>
+			</h2>
+			<p>
+				<span>人数:</span>
+				<em class="reserved-number">4</em>
+				<span>人</span>
+			</p>
+			<p>
+				<span>日期:</span>
+				<em class="reserved-date">10月21日</em>
+				<em class="reserved-time">17:15</em>
+			</p>
+		</div>
+
+		<div class="m-reserved-view2">
+			<p>
+				<span>我要定包房</span>
+				<a href="javascript:;" class="u-off">
+					<i class="u-btn"></i>
+				</a>
+			</p>
+		</div>		
+
+		<div class="m-reserved-view3">
+			<h3>顾客信息</h3>
+			<form action="" class="reservedform">
+				<p>
+					<label for="reserved_pname">您的尊称:</label>
+					<input type="text" id="reserved_pname" placeholder="请输入您的姓名" datatype="*" >
+					<!-- <em>用户名不能为空</em> -->
+				</p>
+
+				<p class="ipt-prompt-user">用户名不能为空</p>
+				<p class="p2">
+					<a href="javascript:;" class="ipt-radio-cur">
+						<i class="icon-radio"></i>
+						<span>先生</span>
+					</a>
+					<a href="javascript:;" class="ipt-radio">
+						<i class="icon-radio"></i>
+						<span>女士</span>
+					</a>
+					<!-- <input type="radio" name="sex" id="" vlaue="先生">
+					<input type="radio" name="sex" id="" vlaue="女士"> -->
+				</p>
+				<p>
+					<label for="reserved_contact">联系方式:</label>
+					<input type="text" id="reserved_contact" placeholder="请输入您的联系方式" datatype="m">
+					
+				</p>
+				<p class="ipt-prompt-contact">手机号码格式错误</p>
+				<div class="reserved-remark">
+					<h3>备注信息</h3>
+					<textarea name="" id="" cols="30" rows="10" placeholder="如果有特殊要求,请填写,餐厅会尽量满足" class="reserved-remark-con"></textarea>
+				</div>
+			</form>
+		</div>
+
+		<a href="javascript:;" class="btn-reserved-now">立即预约</a>
+    </div>
+
+    <div class="g-ft">
+		
+    </div>
+
+    <script src="js/rem.js"></script>
+    <!-- 本地存储组件 -->
+	<script src="js/plugin/store.min.js"></script>
+    <script src="js/libs/zepto.min.js"></script>
+    <script src="js/res-reserved-view.js"></script>
+</body>
+
+</html>

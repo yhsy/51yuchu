@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html class="g-html2">
+<head>
+    <meta charset="UTF-8">
+    <title>个人中心--预约订单</title>
+    <link rel="stylesheet" href="css/libs/m-reset.css">
+    <link rel="stylesheet" href="scss/global.css">
+    <link rel="stylesheet" href="scss/personal.css">
+    
+</head>
+
+<body>
+    <div class="g-hd g-hd-personal-ordered">
+    	<!-- 返回个人中心(1.个人中心跳转了两次) -->
+       <a href="personal.html" class="icon-back"></a>
+       <h2>预约订单</h2>
+    </div>
+
+    <div class="g-bd g-bd-personal">	
+		<div class="g-personal3">
+			<ul class="m-tnav f-cb">
+				<li class="act"><a href="javascript:;" id="order_all">全部</a></li>
+				<li><a href="javascript:;" id="order_wait">未确认</a></li>				
+				<li><a href="javascript:;" id="order_ok">已确认</a></li>
+				<li><a href="javascript:;" id="order_no">预约失败</a></li>
+			</ul>
+		</div>
+
+		<div class="g-personal4">
+			<p class="m-prompt-text">您还没有订单,赶紧去预约吧！</p>
+			<ul class="personal-ordered-list">			
+			</ul>
+			
+
+		</div>
+
+    </div>
+
+    <div class="g-ft g-ft-personal">
+		
+    </div>
+
+    <script src="js/rem.js"></script>
+    <!-- 本地存储组件 -->
+	<script src="js/plugin/store.min.js"></script>
+    <!--引入zepto-->
+	<script src="js/libs/zepto.min.js"></script>
+	<script src="js/pe-reserved.js"></script>
+</body>
+
+</html>
